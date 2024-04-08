@@ -1,0 +1,237 @@
+
+@media screen and (min-width:1024px){
+    .body1{
+        background-color: #FEFBFB;
+    }
+    #formulario{
+        display: flex;
+        background-color: #FEFBFB;
+        margin-left: 189px;
+    }
+    #formulario section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 454px;
+        Height: 223px;
+        padding: 10px;
+        background-color: #D9D9D9;
+        margin: 20px;
+    }
+    
+    input{
+        width: 436px;
+        height: 46px;
+        margin: 3px 0;
+        border: none;
+    }
+    .Estado{ 
+        width: 66px;
+        height: 38px;
+        margin-right: 5px;
+    }
+    .Municipio{
+        width: 360px;
+        height: 38px;
+    }
+    .alinhamento{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        margin: 0;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        margin: none;
+        padding: none;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    #botao{
+        display: inline-block;
+        background-color: #FEFBFB;
+        margin-bottom: 500px;
+    }
+    #botao button{
+        width:95px;
+        height: 31px;
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .button1{
+        background-color: #04C9F4;
+        color: #fff;
+        border: none;
+    }
+    .button2{
+        background-color: #F40404;
+        color: #fff;
+        border: none;
+    }
+    .button3{
+        background-color: #fff;
+        color: #04C9F4;
+        border: none;
+    }
+}
+  /* celulares */
+  @media screen and (max-width:767px){
+    .body1{
+        background-color: #FEFBFB;
+    }
+    #formulario{
+        display: flex;
+        background-color: #FEFBFB;
+        margin-left: 94px;
+    }
+    #formulario section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 227px;
+        Height: 111px;
+        padding: 5px;
+        background-color: #D9D9D9;
+        margin: 10px;
+    }
+    
+    input{
+        width: 218px;
+        height: 23px;
+        margin: 2px 0;
+        border: none;
+    }
+    .Estado{ 
+        width: 33px;
+        height: 19px;
+        margin-right: 3px;
+    }
+    .Municipio{
+        width: 180px;
+        height: 19px;
+    }
+    .alinhamento{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+        margin: 0;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        margin: none;
+        padding: none;
+        font-size: 7px;
+        color: #fff;
+    }
+    
+    #botao{
+        display: inline-block;
+        background-color: #FEFBFB;
+        margin-bottom: 250px;
+    }
+    #botao button{
+        width:48px;
+        height: 15px;
+        margin-left: 10px;
+        font-size: 7px; 
+    }
+    .button1{
+        background-color: #04C9F4;
+        color: #fff;
+        border: none;
+    }
+    .button2{
+        background-color: #F40404;
+        color: #fff;
+        border: none;
+    }
+    .button3{
+        background-color: #fff;
+        color: #04C9F4;
+        border: none;
+    }
+  }
+  /*Tablets*/
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .body1{
+        background-color: #FEFBFB;
+    }
+    #formulario{
+        display: flex;
+        background-color: #FEFBFB;
+        margin-left: 140px;
+    }
+    #formulario section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 336px;
+        Height: 165px;
+        padding: 7px;
+        background-color: #D9D9D9;
+        margin: 10px;
+    }
+    
+    input{
+        width: 332px;
+        height: 34px;
+        margin: 2px 0;
+        border: none;
+    }
+    .Estado{ 
+        width: 49px;
+        height: 28px;
+        margin-right: 4px;
+    }
+    .Municipio{
+        width: 267px;
+        height: 28px;
+    }
+    .alinhamento{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-bottom: 7px;
+        margin: 0;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+        margin: none;
+        padding: none;
+        font-size: 10px;
+        color: #fff;
+    }
+    
+    #botao{
+        display: inline-block;
+        background-color: #FEFBFB;
+        margin-bottom: 370px;
+    }
+    #botao button{
+        width:70px;
+        height: 23px;
+        margin-left: 15px;
+        font-size: 10px; 
+    }
+    .button1{
+        background-color: #04C9F4;
+        color: #fff;
+        border: none;
+    }
+    .button2{
+        background-color: #F40404;
+        color: #fff;
+        border: none;
+    }
+    .button3{
+        background-color: #fff;
+        color: #04C9F4;
+        border: none;
+    }
+  }

@@ -1,0 +1,33 @@
+ /*notebooks e desketops*/
+@media screen and (min-width:1024px){
+  section{
+    display: flex;
+    justify-content: center;
+    margin-top: 118px;
+  }
+  section img{
+    width: 36%;
+  }
+}
+/* celulares */
+@media screen and (max-width:767px){
+  section{
+    display: flex;
+    justify-content: center;
+    margin-top: 56px;
+  }
+  section img{
+    width: 36%;
+  }
+}
+/*Tablets*/
+@media screen and (min-width:768px) and (max-width:1023px){
+  section{
+    display: flex;
+    justify-content: center;
+    margin-top: 88px;
+  }
+  section img{
+    width: 36%;
+  }
+}

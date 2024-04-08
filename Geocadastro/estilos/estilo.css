@@ -1,0 +1,248 @@
+/*notebooks e desketops*/
+ @media screen and (min-width:1024px){
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#E7E7E7;
+  }
+  .taskbar {
+    height: 100%;
+    width: 189px; 
+    background-color: #D9D9D9;
+    color: #fff;
+    position: fixed;
+    left: 2px;
+    top: 2px;
+    overflow-x: hidden;
+    z-index: 999;
+  }
+  
+  .taskbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .botao{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #04C9F4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .botao1{
+    display: block;
+    padding: 10px;
+    margin: 5px;
+    background-color: #E7E7E7;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .taskbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:189px;
+  }
+  div header{
+    background-color: #04C9F4;
+    width: 100%;
+  }
+  div header h1{
+    margin-left: 10px;
+    color: #fff;
+    font-size: 18px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #04C9F4;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    height: 45px;
+    font-size: 12px;
+  }  
+}
+/* celulares */
+@media screen and (max-width:767px){
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#E7E7E7;
+  }
+  .taskbar {
+    height: 100%;
+    width: 94px; 
+    background-color: #D9D9D9;
+    color: #fff;
+    position: fixed;
+    left: 1px;
+    top: 1px;
+    overflow-x: hidden;
+    z-index: 999;
+  }
+  
+  .taskbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .botao{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    background-color: #04C9F4;
+    border: none;
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-size: 8px;
+    cursor: pointer;
+  }
+  .botao1{
+    display: block;
+    padding: 5px;
+    margin: 2px;
+    background-color: #E7E7E7;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    cursor: pointer;
+  }
+  .taskbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:94px;
+  }
+  div header{
+    background-color: #04C9F4;
+    width: 100%;
+  }
+  div header h1{
+    margin-left: 5px;
+    color: #fff;
+    font-size: 9px;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #04C9F4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 22px;
+    font-size: 6px;
+  }
+}
+/*Tablets*/
+@media screen and (min-width:768px) and (max-width:1023px){
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color:#E7E7E7;
+  }
+  .taskbar {
+    height: 100%;
+    width: 140px; 
+    background-color: #D9D9D9;
+    color: #fff;
+    position: fixed;
+    left: 1px;
+    top: 1px;
+    overflow-x: hidden;
+    z-index: 999;
+  }
+  
+  .taskbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .botao{
+    display: block;
+    padding: 7px;
+    margin: 4px;
+    background-color: #04C9F4;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .botao1{
+    display: block;
+    padding: 7px;
+    margin: 4px;
+    background-color: #E7E7E7;
+    border: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .taskbar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:140px;
+  }
+  div header{
+    background-color: #04C9F4;
+    width: 100%;
+  }
+  div header h1{
+    margin-left: 7px;
+    color: #fff;
+    font-size: 10px;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    color: #04C9F4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 33px;
+    font-size: 13px;
+  } 
+}
